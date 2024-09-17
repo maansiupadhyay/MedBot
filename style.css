@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: #d9e1ee;
+  }
+
+  .container {
+    width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: #3232ac33 0px 7px 29px 0px;
+    background: #31363F;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #edf1f3;
+  }
+
+  .chat {
+    height: 400px;
+    overflow-y: scroll;
+    margin: 20px 0;
+    padding: 10px;
+    border: 2px solid #5d5955;
+    border-radius: 5px;
+    background: #222831;
+  }
+
+  .message {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+
+  .user {
+    justify-content: flex-end;
+  }
+
+
+
+  .text {
+    max-width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: rgb(249, 249, 249);
+  }
+
+  .user .text {
+    background: #4a4d52;
+  }
+
+  .bot .text {
+    background: #8c8c8e;
+  }
+
+  .input {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #cbcbce;
+    border-radius: 5px;
+    outline: none;
+    font-size: 20px;
+   
+  }
+
+  .input:focus {
+    border-color: #8296d0;
+    color: #1e1f1f;
+  }
+
+  .button {
+    position: absolute;
+    width: 80px;
+    border: none;
+    padding: 1px;
+    background: #31363F;
+    color: rgb(176, 118, 118);
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: .01rem;
+    margin-left: -4.1rem;
+    outline: none;
+  
+  }
+  
+   
+button i{  
+  font-size: 3rem;
+}
